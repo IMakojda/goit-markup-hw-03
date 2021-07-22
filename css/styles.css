@@ -1,0 +1,187 @@
+:root {
+  --logo-color-dark: #000000; /*логотип футер*/
+  --text-title-color-btn-dark: #212121; /*колір тексту заголовків*/
+  --text-subtitle-color: #757575; /*колір тексту опису*/
+  --text-hero-section-logo-light: #ffffff; /*колір тексту секція героя*/
+  --akcent-color: #2196f3; /*колір активного стану ссилок кнопки*/
+  --footer-contact-color: rgba(255, 255, 255, 0.6); /* колір ссилок футера*/
+  --font-weight-bold: 700; /*Bold*/
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--text-title-color-btn-dark);
+  background-color: var(--text-hero-section-logo-light);
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+.container {
+  background-color: aquamarine;
+  width: 1200px;
+}
+/*  Studia Page */
+
+.logo-dark {
+  font-family: Raleway;
+  font-weight: var(--font-weight-bold);
+  font-size: 26px; /* лого хедер*/
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--logo-color-dark);
+}
+.web {
+  font-weight: var(--font-weight-bold);
+  font-size: 26px; /* лого хедер*/
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--akcent-color);
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px; /* навігація сайту*/
+  line-height: 16px;
+  color: var(--text-title-color-btn-dark);
+}
+
+.nav-bar a:hover,
+.nav-bar a:focus {
+  text-decoration: none; /* фокус кнопок навігації*/
+  color: var(--akcent-color);
+}
+
+.nav-bar .link-current {
+  text-decoration: none;
+  color: var(--akcent-color); /* фокус ссилок навігації*/
+}
+
+.contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px; /* контакти*/
+  line-height: 16px;
+  color: var(--text-subtitle-color);
+}
+.contact:hover,
+.contact:focus {
+  text-decoration: none; /* фокус на контактах*/
+  color: var(--akcent-color);
+}
+
+.hero-section {
+  font-family: inherit;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--text-hero-section-logo-light);
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-order-service {
+  font-family: inherit;
+  font-weight: var(--font-weight-bold);
+  font-size: 16px; /* кнопк азаказать услугу*/
+  line-height: 30px;
+  background-color: var(--akcent-color);
+  color: var(--text-hero-section-logo-light);
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+}
+
+.advantages-title {
+  font-weight: var(--font-weight-bold); /* секція наші переваги*/
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.advantages-description {
+  font-size: 14px; /* секція наші переваги*/
+  line-height: 24px;
+  color: var(--text-subtitle-color);
+}
+.what-we-do {
+  font-weight: var(--font-weight-bold);
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-title {
+  font-weight: var(--font-weight-bold);
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-card-sign {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--text-subtitle-color);
+}
+
+.logo-light {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--text-hero-section-logo-light);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+}
+.adress {
+  font-style: normal;
+}
+.adress-line {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-hero-section-logo-light);
+}
+
+/* Portfolio Page*/
+
+.filter-box-portfolio button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-title-color-btn-dark);
+  cursor: pointer;
+}
+.filter-box-portfolio button:focus,
+.filter-box-portfolio button:hover {
+  color: var(--text-hero-section-logo-light);
+  background-color: var(--akcent-color);
+}
+
+.sign-work {
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.filter-work-sign {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-subtitle-color);
+  letter-spacing: 0.03em;
+}
