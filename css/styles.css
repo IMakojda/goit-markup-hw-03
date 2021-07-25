@@ -158,6 +158,27 @@ button {
   border: 0;
 }
 
+/* advantegse styles  */
+.section {
+  padding: 94px 0px;
+}
+.advant {
+  display: none;
+  margin: 0;
+}
+
+.our-advantages {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid tomato;
+}
+.advantages {
+  display: flex;
+}
+.advantages li {
+  margin: 0 15px;
+}
 .advantages-title {
   font-weight: var(--font-weight-bold); /* секція наші переваги*/
   font-size: 14px;
