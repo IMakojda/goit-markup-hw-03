@@ -21,6 +21,10 @@ ul {
   margin-block-end: 0;
   padding: 0;
 }
+button {
+  padding: 0;
+  display: flex;
+}
 
 /*studia page font style*/
 
@@ -115,8 +119,10 @@ ul {
 .hero-section {
   font-family: inherit;
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
+}
+.hero-holder {
+  display: flex;
+  flex-direction: column;
 }
 .main-title {
   font-weight: 900;
@@ -126,6 +132,10 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 252px 30px 252px;
 }
 
 .btn-order-service {
@@ -137,7 +147,15 @@ ul {
   color: var(--text-hero-section-logo-light);
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: 0.06em;
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 500px 200px 500px;
+  padding: 10px 32px;
+  border: 0;
 }
 
 .advantages-title {
