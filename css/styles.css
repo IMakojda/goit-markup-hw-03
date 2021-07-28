@@ -312,7 +312,7 @@ footer {
 }
 .adress {
   font-style: normal;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 address p {
   margin-top: 0;
@@ -324,7 +324,7 @@ address p {
   color: var(--text-hero-section-logo-light);
 }
 .logo-light {
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 20px;
 }
 .contact :not(:last-child) {
