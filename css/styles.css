@@ -106,10 +106,15 @@ img {
 /* logo+navbar  */
 .header {
   display: flex;
-  height: 80px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ececec;
+}
+.nav-block {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-holder {
   display: flex;
@@ -370,6 +375,12 @@ address p {
   padding-top: 94px;
   padding-bottom: 34px;
 }
+.filter-btn {
+  background-color: #f5f4fa;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: #f5f4fa;
+}
 .filter-box-portfolio :not(:last-child) {
   margin-right: 8px;
 }
@@ -387,11 +398,11 @@ address p {
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-left: var(--set-gap);
   margin-top: var(--set-gap);
-  outline: 1px solid tomato;
 }
 .card-poster {
   width: 370px;
-  height: 404px;
+  height: auto;
+  border-bottom: 1px solid #eeeeee;
 }
 .card-contetnt {
   text-align: start;
