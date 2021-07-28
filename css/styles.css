@@ -221,7 +221,6 @@ img {
 /* what do you do  */
 .do-holder {
   padding-top: 0;
-  width: 1170px;
 }
 .what-we-do {
   font-weight: var(--font-weight-bold);
@@ -235,9 +234,12 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
   margin-left: calc(-1 * var(--set-gap));
   margin-top: calc(-1 * var(--set-gap));
+}
+.list-item {
+  display: block;
+  width: 370px;
 }
 .we-do-image > .list-item {
   flex-basis: calc(100% / 3 - var(--set-gap));
@@ -263,7 +265,6 @@ img {
   line-height: 19px;
 }
 .team-card-holder {
-  width: 1200px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -371,4 +372,34 @@ address p {
 }
 .filter-box-portfolio :not(:last-child) {
   margin-right: 8px;
+}
+/* main page style portfolio  */
+
+.our-work-set {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: calc(-1 * var(--set-gap));
+  margin-top: calc(-1 * var(--set-gap));
+}
+
+.our-work-set > .item {
+  flex-basis: calc(100% / 3 - var(--set-gap));
+  margin-left: var(--set-gap);
+  margin-top: var(--set-gap);
+  outline: 1px solid tomato;
+}
+.card-poster {
+  width: 370px;
+  height: 404px;
+}
+.card-contetnt {
+  text-align: start;
+  padding: 20px 24px;
+}
+.card-contetnt p {
+  margin: 0;
+}
+.card-contetnt h2 {
+  margin-bottom: 4px;
 }
